@@ -1,0 +1,224 @@
+body{
+    background: #E5D0C5
+}
+body{
+    padding: 5pt 50pt;
+    font-size:1.5em;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(old_london.otf);
+  }
+    h1 {
+    font-family: myFirstFont;
+    font-size:2.5em;
+    color: #921f36
+    }
+    h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.5em;
+    color: #954233
+    }
+    
+.big_anchor {
+    color: rgb(28, 113, 211)
+}
+
+#myfooter {
+    color: #232020
+}
+#myfooter {
+    text-align: center;
+}
+p{
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* Zoom-n-rotate Container */
+.img-hover-zoom--zoom-n-rotate img {
+    transition: transform .5s ease-in-out;
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--zoom-n-rotate:hover img {
+    transform: scale(1) rotate(25deg);
+  }
+  h1 a {
+display: block;
+    color:  #850720;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: right;
+ }
+ 
+h1 a:hover {
+    background-color:#5b905c
+}
+
+.hero-image {
+    position: relative;
+    background-image: url("Hero4.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust the height as needed */
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img {
+    margin-left: 20px; /* Adjust the margin to add space between text and image */
+    margin-right: 20px;
+}
+.img_right{
+    float:right;
+}
+.img_middle{
+    float:middle;
+}
+.R2 {
+    display: flex;
+}
+.R2 > div {
+    width:50%;
+}
+
+#R2_C1 {
+    background-color:#a5c7e9;
+}
+#R2_C2 {
+    background-color: #f1e5b7;
+}
+
+
+
+  
+ 
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: green;
+    color: white;
+  }
+  .R3 {
+    display: flex;
+}
+.R3 > div {
+    width:33%; 
+    border: 3px solid #dbe4ed;
+    border-radius:25px ;
+}
+#R3_C1 {
+    background-color:#67b7d6;
+}
+#R3_C2 {
+    background-color:#8abeec;
+}
+#R3_C3 {
+    background-color:#D9EEE1;
+}
+#R3_C1 img {
+    display: block; 
+    margin: 0 auto; /* Center the image horizontally */
+}
+#R3_C2 img {
+    display: block; 
+    margin: 0 auto; /* Center the image horizontally */
+}
+#R3_C3 img {
+    display: block; 
+    margin: 0 auto; /* Center the image horizontally */
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
